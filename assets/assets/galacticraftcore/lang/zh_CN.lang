@@ -1,4 +1,4 @@
-# Galacticraft Core Language File = SIMPLIFIED CHINESE
+Copper Wire# Galacticraft Core Language File = SIMPLIFIED CHINESE
 
 # GENERAL ITEMS
 item.oxygenTankLightFull.name=轻型氧气罐
@@ -42,7 +42,7 @@ item.flag.white.name=旗帜
 item.parachute_plain.name=降落伞
 item.parachute_black.name=黑色降落伞
 item.parachute_blue.name=浅蓝色降落伞
-item.parachute_green.name=柠檬色降落伞
+item.parachute_lime.name=柠檬色降落伞
 item.parachute_brown.name=棕色降落伞
 item.parachute_darkblue.name=蓝色降落伞
 item.parachute_darkgray.name=灰色降落伞
@@ -55,6 +55,7 @@ item.parachute_purple.name=紫色降落伞
 item.parachute_red.name=红色降落伞
 item.parachute_teal.name=青色降落伞
 item.parachute_yellow.name=黄色降落伞
+item.steelPole.name=钢杆
 item.flagPole.name=旗杆
 item.canvas.name=帆布
 item.buggy.name=星球车
@@ -70,6 +71,11 @@ item.key.T1.name=地牢钥匙 等级1
 item.buggymat.wheel.name=星球车车轮
 item.buggymat.seat.name=星球车座椅
 item.buggymat.storage.name=星球车存储箱
+item.basicItem.solar_module_0.name=单片太阳能模块
+item.basicItem.solar_module_1.name=完整太阳能光板
+item.tier1.desc=等级 1
+item.battery.name=电池
+item.infiniteBattery.name=无限电池
 
 # TOOLS
 item.steel_pickaxe.name=重镐
@@ -126,6 +132,15 @@ tile.enclosed.PipeLiquidsCobblestone.name=可密封圆石防水管道
 tile.enclosed.PipeLiquidsStone.name=可密封石头防水管道
 tile.enclosed.PipePowerStone.name=可密封圆石导体管道
 tile.enclosed.PipePowerGold.name=可密封石头导体管道
+tile.solar.basic.name=太阳能电池板
+tile.solar.advanced.name=高级太阳能电池板
+tile.parachest.name=伞降箱
+tile.oreCopper.name=铜矿
+tile.oreTin.name=锡矿
+tile.copperWire.name=铜线
+tile.machine.0.name=煤发电机
+tile.machine.1.name=蓄电箱
+tile.machine.2.name=电炉
 
 # ENTITIES
 entity.GalacticraftCore.EvolvedSpider.name=蜘蛛(进化体)
@@ -195,6 +210,8 @@ container.refinery.name=精炼器
 container.treasurechest.name=珍品箱
 container.lander.name=登陆舱
 container.spaceship.name=火箭 等级1
+container.solarbasic.name=太阳能电池板
+container.solaradvanced.name=高级太阳能电池板
 
 gui.message.out.name=输出
 gui.message.in.name=输入
@@ -205,6 +222,8 @@ gui.message.fuel.name=燃料
 gui.message.full.name=满
 gui.message.page.name=页
 gui.message.addnewsch.name=新增设计图
+gui.message.generating.name=生成中
+gui.message.environment.name=环境的促进
 
 gui.status.active.name=活动的
 gui.status.missingleaves.name=树叶不足
@@ -227,6 +246,11 @@ gui.status.ready.name=准备就绪
 gui.status.refining.name=精炼中
 gui.status.idle.name=空闲
 gui.status.nooil.name=没有油料
+gui.status.raining.name=下雨中
+gui.status.blockedpartial.name=太阳部分可见
+gui.status.blockedfully.name=太阳不可见
+gui.status.collectingenergy.name=手机能量
+gui.status.sealerblocked.name=输出口堵塞了!
 
 gui.button.enableseal.name=密闭启动
 gui.button.disableseal.name=禁用密闭
@@ -243,6 +267,8 @@ gui.button.back.name=返回
 gui.button.next.name=下一个
 gui.button.unlockschematic.name=解锁设计图
 gui.button.stoprefine.name=停止精炼
+gui.button.enable.name=开启
+gui.button.disable.name=关闭
 
 gui.choosePlanet.desc.overworld=生机勃勃#宜居#重力: 100%
 gui.warning=警告！
